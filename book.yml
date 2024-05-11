@@ -1,14 +1,30 @@
-name: 'The First Book'
+name: 'SQLite on Rails 7'
 dedication: "With dedication to everyone\nwho ever thought about writing a book"
 cover_image: 'cover.jpg'
 epub_cover_image: 'epub_cover.jpg'
-author: "Paweł Dąbrowski"
+author: "Stephen Margheim"
 chapters:
   - name: Introduction
     slug: introduction
-  - name: Configuration
-    slug: configuration
-  - name: Syntax
-    slug: syntax
-  - name: Cover
-    slug: cover
+  - name: Baseline Load Tests
+    slug: baseline
+  - name: Adding the Enhanced Adapter
+    slug: enhanced-adapter
+  - name: Upgrading Ruby to 3.3
+    slug: ruby-3.3
+  - name: Data Resilience
+    slug: data-resilience
+  - name: Restoring from a Backup
+    slug: restoring-backup
+  - name: Adding Solid Queue
+    slug: solid-queue
+  - name: Adding Solid Cache
+    slug: solid-cache
+  - name: SQLite Extensions
+    slug: sqlite-extensions
+  - name: Controlling SQLite Compilation
+    slug: controlling-compilation
+  - name: Branch-specific Databases
+    slug: branch-specific-databases
+  - name: Error Monitoring
+    slug: error-monitoring
